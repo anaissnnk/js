@@ -31,7 +31,6 @@ paragraphs.forEach(paragraph => {
 
 //Give each of the paragraph a random text color (different for each one) UNLESS it has a class then leave it as it is.
 const colors = ["red", "blue", "green", "purple", "orange"];
-const paragraphs = document.querySelectorAll('p');
 let colorIndex = 0; //counter
 paragraphs.forEach(paragraph => {
     if (!paragraph.getAttribute('class')) {

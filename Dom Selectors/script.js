@@ -32,10 +32,11 @@ images.forEach(image => {
 //Give each of the paragraph a random text color (different for each one) UNLESS it has a class then leave it as it is.
 const colors = ["red", "blue", "green", "purple", "orange"];
 const paragraphs = document.querySelectorAll('p');
+let colorIndex = 0;
 paragraphs.forEach(paragraph => {
     if (!paragraph.getAttribute('class')) {
-        paragraph.style.color = colors[ % colors.length];
-        console.log(paragraph);
+        paragraph.style.color = colors[colorIndex % colors.length];
+        colorIndex++;
     } else {
         console.log(paragraph);
     }

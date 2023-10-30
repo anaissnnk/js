@@ -18,21 +18,21 @@ images.forEach(image => {
 //Loop through all the paragraphs and display their content in the console.
 //If the paragraph has a class, display its classname as well
 
-//const paragraphs = document.querySelectorAll('p');
-//paragraphs.forEach(paragraph => {
-//    if (paragraph.getAttribute('class')) {
-//        console.log(paragraph.classList);
-//        console.log(paragraph.textContent);
-//    } else {
-//    console.log(paragraph);
-//    
-//}
-//});
+const paragraphs = document.querySelectorAll('p');
+paragraphs.forEach(paragraph => {
+    if (paragraph.getAttribute('class')) {
+        console.log(paragraph.classList);
+        console.log(paragraph.textContent);
+    } else {
+    console.log(paragraph);
+    
+}
+});
 
 //Give each of the paragraph a random text color (different for each one) UNLESS it has a class then leave it as it is.
 const colors = ["red", "blue", "green", "purple", "orange"];
 const paragraphs = document.querySelectorAll('p');
-let colorIndex = 0;
+let colorIndex = 0; //counter
 paragraphs.forEach(paragraph => {
     if (!paragraph.getAttribute('class')) {
         paragraph.style.color = colors[colorIndex % colors.length];

@@ -17,6 +17,6 @@ thirdSection.insertBefore(secondsectionH2, thirdSection.firstChild);
 secondSection.insertBefore(thirdsectionH2, secondSection.firstChild);
 
 
-//TODO: Delete the last section from the DOM, we don't need it anyways
+//Delete the last section from the DOM, we don't need it anyways
 const parent = document.querySelector("main");
 parent.removeChild(secondSection);

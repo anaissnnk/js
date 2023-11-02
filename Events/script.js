@@ -21,7 +21,7 @@ const violetDiv = document.querySelector('.violet');
 const orangeDiv = document.querySelector('.orange');
 const displayedWrapper = document.querySelector('.displayedsquare-wrapper');
 
-//Create new squares + alert message
+//Create new squares + add alert message
 function createDiv(color){
   const newDiv = document.createElement('div');
   newDiv.classList.add("displayedsquare");

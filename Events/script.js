@@ -73,11 +73,21 @@ document.body.addEventListener("keyup", (event) => {
 });
 
 
+//When the l key is pressed the log gets deleted (erases the generated <li>s).
+document.body.addEventListener("keyup", (event) => {
+  if (event.key === "l") {
+    const logEntry = document.querySelectorAll('li');
+    logEntry.forEach(entry => entry.remove());
+  }
+});
 
 
+//When the s key is pressed the squares get deleted (erases the generated squares)
+document.body.addEventListener("keyup", (event) => {
+  if (event.key === "s") {
+    const generatedSquares = document.querySelectorAll(".displayedsquare");
+    generatedSquares.forEach(square => square.remove());
+  }
+});
 
-//TODO: When the l key is pressed the log gets deleted (erases the generated <li>s).
-//Mind you: using a delete in a for loop might cause issues (as the amount of items to loop over changes),
-//so a while loop might be a good choice instead.
-//TODO: When the s key is pressed the squares get deleted (erases the generated squares)
 //TODO: Create a system so that when a user clicks on a generated square an alert pops-up with the color of that square

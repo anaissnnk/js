@@ -15,7 +15,7 @@ for (let actionSquare of actionSquares) {
 }
 
 /*My Code*/
-
+// Generating new squares
 const greenDiv = document.querySelector('.green');
 const violetDiv = document.querySelector('.violet');
 const orangeDiv = document.querySelector('.orange');
@@ -38,14 +38,14 @@ orangeDiv.addEventListener('click', function() {
   createDiv('orange')
 });
 
-/*TODO: Create a new <li> in the log below to state when the action was done*/
+//Creating li log for new actions
 const logSection = document.querySelectorAll('section')[2];
 const squareWrapper = document.querySelector('.actionsquare-wrapper');
 
 function logEntry() {
   const newEntry = document.createElement('li');
   const entryTime = new Date();
-  newEntry.textContent = "Action done at " + entryTime.toLocaleTimeString();
+  newEntry.textContent = "Square created at " + entryTime.toLocaleTimeString();
   logSection.append(newEntry);
 }
 
@@ -53,3 +53,31 @@ squareWrapper.addEventListener('click', function() {
   logEntry()
 }
 )
+
+//Body event listeners
+//Space bar entry function
+function spacebarEntry() {
+  const newEntry = document.createElement('li');
+  const entryTime = new Date();
+  newEntry.textContent = "Spacebar pressed at " + entryTime.toLocaleTimeString();
+  logSection.append(newEntry);
+}
+
+// When the spacebar is hit randomly change the background color of the whole page + log it
+document.body.addEventListener("keyup", (event) => {
+  if (event.key === " ") {
+    const randomColor = Math.floor(Math.random() * 16777215).toString(16);
+    document.body.style.backgroundColor = "#" + randomColor;
+    spacebarEntry();
+  }
+});
+
+
+
+
+
+//TODO: When the l key is pressed the log gets deleted (erases the generated <li>s).
+//Mind you: using a delete in a for loop might cause issues (as the amount of items to loop over changes),
+//so a while loop might be a good choice instead.
+//TODO: When the s key is pressed the squares get deleted (erases the generated squares)
+//TODO: Create a system so that when a user clicks on a generated square an alert pops-up with the color of that square

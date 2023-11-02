@@ -15,33 +15,43 @@ for (let actionSquare of actionSquares) {
 }
 
 /*My Code*/
-// Generating new squares
+//Squares variables
 const greenDiv = document.querySelector('.green');
 const violetDiv = document.querySelector('.violet');
 const orangeDiv = document.querySelector('.orange');
 const displayedWrapper = document.querySelector('.displayedsquare-wrapper');
 
+//Create new squares + alert message
 function createDiv(color){
   const newDiv = document.createElement('div');
   newDiv.classList.add("displayedsquare");
   newDiv.style.backgroundColor = color;
   displayedWrapper.append(newDiv);
+  newDiv.addEventListener('click', function() {
+  alert("Color: " + color);  
+  })
 };
 
+//Add entry of created square
 greenDiv.addEventListener('click', function() {
-  createDiv('lime')
+  createDiv('lime');
+  logEntry();
 });
+
 violetDiv.addEventListener('click', function() {
   createDiv('magenta')
+  logEntry();
 });
 orangeDiv.addEventListener('click', function() {
   createDiv('orange')
+  logEntry();
 });
 
-//Creating li log for new actions
+//variables for log entries
 const logSection = document.querySelectorAll('section')[2];
 const squareWrapper = document.querySelector('.actionsquare-wrapper');
 
+//Creating li log for new actions
 function logEntry() {
   const newEntry = document.createElement('li');
   const entryTime = new Date();
@@ -49,10 +59,6 @@ function logEntry() {
   logSection.append(newEntry);
 }
 
-squareWrapper.addEventListener('click', function() {
-  logEntry()
-}
-)
 
 //Body event listeners
 //Space bar entry function
@@ -90,4 +96,3 @@ document.body.addEventListener("keyup", (event) => {
   }
 });
 
-//TODO: Create a system so that when a user clicks on a generated square an alert pops-up with the color of that square

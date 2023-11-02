@@ -18,18 +18,34 @@ for (let actionSquare of actionSquares) {
 
 const actionSquare = document.querySelectorAll(".actionsquare");
 
-function createDiv(){
+function createDiv(color){
   const newDiv = document.createElement('div');
   newDiv.classList.add("displayedsquare");
-/*TODO: Create a new <div> with a class .displayedsquare and the corresponding clicked color in the div above
-        (.displayedsquare-wrapper)*/
-  newDiv.style.backgroundColor = "red";
+  newDiv.style.backgroundColor = color;
   document.body.appendChild(newDiv);
 };
 
-actionSquares.forEach(function (actionSquare) {
-  actionSquare.addEventListener('click', createDiv);
+/*TODO: Create a new <div> with a class .displayedsquare and the corresponding clicked color in the div above
+        (.displayedsquare-wrapper)*/
+
+const greenDiv = document.querySelector('.green');
+const violetDiv = document.querySelector('.violet');
+const orangeDiv = document.querySelector('.orange');
+
+greenDiv.addEventListener('click', function() {
+  createDiv('lime')
 });
+violetDiv.addEventListener('click', function(){
+  createDiv('magenta')
+});
+orangeDiv.addEventListener('click', function(){
+  createDiv('orange')
+});
+
+
+//actionSquares.forEach(function (actionSquare) {
+//  actionSquare.addEventListener('click', createDiv);
+//});
 
 
 /*TODO: Create a new <li> in the log below to state when the action was done*/

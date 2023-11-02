@@ -24,7 +24,6 @@ secondinputField.addEventListener("keyup", () => {
     }
 })
 
-
 /*Add a keyup listener on both fields and show a visual hint
 (for instance turn the field red) if the password is too short (less than 6 characters)
 or if the password and its confirmation do not match.*/
@@ -54,4 +53,17 @@ confirmpwdField.addEventListener("keyup", () => {
 /*Finally, use a change listener on the <select> field to toggle a dark mode on the whole page.
 For ease of use, we'll say that the dark mode is just turning the background black and the text white.
 */
-const pwdField = document.getElementById("pwd");
+const toggleMode = document.getElementById("toggle-darkmode");
+
+toggleMode.addEventListener("change", (event) => {
+    if (toggleMode.value === "dark") {
+        document.body.style.backgroundColor = "black";
+        document.body.style.color = "white";
+    }
+    else {
+        document.body.style.backgroundColor = "";
+        document.body.style.Color = "";
+    }
+});
+
+

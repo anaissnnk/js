@@ -6,6 +6,7 @@ const collection = [
         name: 'Little Forest Winter/Spring',
         type: 'Movie',
         genre: 'Drama',
+        picture: 'https://images.justwatch.com/backdrop/11289115/s640/little-forest-winter-spring.%7Bformat%7D',
         language: 'Japanese'
     },
 
@@ -14,6 +15,7 @@ const collection = [
         name: "Kiki's Delivery Service",
         type: 'Animation Movie',
         genre: 'Slice of Life, Drama',
+        picture: './Collection_pictures/kiki.avif',
         language: 'Japanese'
     },
 
@@ -22,6 +24,7 @@ const collection = [
         name: "The Makanai",
         type: 'Series',
         genre: 'Slice of Life, Drama',
+        picture: 'https://www.wheninmanila.com/wp-content/uploads/2023/01/the-makanai-netflix-header.jpg',
         language: 'Japanese'
     },
 
@@ -30,6 +33,7 @@ const collection = [
         name: "Whisper of the Heart",
         type: 'Animation Movie',
         genre: 'Slice of Life, Drama',
+        picture: './Collection_pictures/whisper_of_the_heart.jpg',
         language: 'Japanese'
     },
 
@@ -38,6 +42,7 @@ const collection = [
         name: "Laid-back Camp",
         type: 'Anime',
         genre: 'Slice of Life',
+        picture: './Collection_pictures/laid_back_camp.webp',
         language: 'Japanese'
     },
 
@@ -46,6 +51,7 @@ const collection = [
         name: "Ouran High School Host Club",
         type: 'Anime',
         genre: 'Shoujo, Romance, Comedy, Slice of Life',
+        picture: './Collection_pictures/ouran.avif',
         language: 'Japanese'
     },
 
@@ -54,6 +60,7 @@ const collection = [
         name: "Flying Colours",
         type: 'Movie',
         genre: 'Slice of Life, Drama',
+        picture: 'https://pad.mymovies.it/filmclub/2015/03/089/coverlg_home.jpg',
         language: 'Japanese'
     },
 
@@ -62,6 +69,7 @@ const collection = [
         name: "Howl's Moving Castle",
         type: 'Animation Movie',
         genre: 'Romance, Drama',
+        picture: './Collection_pictures/howl.jpg',
         language: 'Japanese'
     },
 
@@ -70,6 +78,7 @@ const collection = [
         name: "March comes in like a Lion",
         type: 'Anime',
         genre: 'Slice of Life, Drama',
+        picture: './Collection_pictures/march.webp',
         language: 'Japanese'
     },
 
@@ -78,6 +87,7 @@ const collection = [
         name: "Boys over Flowers",
         type: 'Series',
         genre: 'Romance, Slice of Life, Drama',
+        picture: './Collection_pictures/hana.webp',
         language: 'Japanese'
     },
   
@@ -105,8 +115,26 @@ const rowDiv = document.createElement("div");
 rowDiv.setAttribute("class", "row");
 main.append(rowDiv);
 
-//card
-const card = document.createElement("div");
-card.setAttribute("class", "card");
-rowDiv.append(card);
-
+collection.forEach(movie => {
+    //card
+    const card = document.createElement("div");
+    card.setAttribute("class", "card");
+    rowDiv.append(card);
+    //card img
+    const cardImage = document.createElement("img");
+    card.append(cardImage);
+    cardImage.src = movie.picture;
+    //card paragraph
+    const nameParagraph = document.createElement("p");
+    card.append(nameParagraph);
+    nameParagraph.textContent = movie.name;
+    const typeParagraph = document.createElement("p");
+    card.append(typeParagraph);
+    typeParagraph.textContent = movie.type;
+    const genreParagraph = document.createElement("p");
+    card.append(genreParagraph);
+    genreParagraph.textContent = movie.genre;
+    const languageParagraph = document.createElement("p");
+    card.append(languageParagraph);
+    languageParagraph.textContent = movie.language;
+});

@@ -9,7 +9,7 @@ header {
 header p {
     display: flex;
     flex-direction: column;
-    background-color: #D7C0AE;
+    background-color: #f0b07f;
     max-width: 80%;
     margin: auto;
     padding: 1ch;

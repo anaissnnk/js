@@ -15,7 +15,7 @@ h1 {
     font-family: 'Courier New';
     letter-spacing: 1px;
     text-transform: lowercase;
-    color: lightcoral;
+    color: coral;
     margin: 1ch;
 }
 
@@ -54,33 +54,39 @@ header img {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
+    flex-grow: 1;
     max-width: 90%;
     margin: auto;
+    padding: 1ch;
+    gap: 10px;
 }
 
+/* cards */
 .card {
     display: flex;
     flex-direction: column;
-    max-width: 22%;
-    background-color: rgb(218, 141, 108);
-    margin: 1ch;
+    background-color: rgb(231, 160, 130);
+    margin: auto;
     padding: 1ch;
     border-radius: 2ch;
 }
 
 .card p {
-    background-color: rgb(218, 141, 108);
+    background-color: rgb(231, 160, 130);
 }
 
 .card h2 {
     font-family: Tahoma;
     text-align: center;
     color: saddlebrown;
-    background-color: rgb(218, 141, 108);
+    background-color: rgb(231, 160, 130);
     margin: 1ch;
+    font-size: 12px;
 }
 
 .card img {
-    max-width: 100%;    
-    border-radius: 2ch;
+    width: 250px;
+    height: 120px;
+    border-radius: 1ch;
+    margin: auto;
 }

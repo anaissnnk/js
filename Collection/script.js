@@ -3,83 +3,83 @@
 const collection = [
     //first item
     {
-        name: 'Little Forest Winter/Spring',
-        type: 'Movie',
-        genre: 'Drama',
+        name: 'Name: Little Forest Winter/Spring',
+        type: 'Type: Movie',
+        genre: 'Genre: Drama',
         picture: 'https://images.justwatch.com/backdrop/11289115/s640/little-forest-winter-spring.%7Bformat%7D',
-        language: 'Japanese'
+        language: 'Language: Japanese'
     },
 
     //second item
     {
-        name: "Kiki's Delivery Service",
-        type: 'Animation Movie',
-        genre: 'Slice of Life, Drama',
+        name: "Name: Kiki's Delivery Service",
+        type: 'Type: Animation Movie',
+        genre: 'Genre: Slice of Life, Drama',
         picture: './Collection_pictures/kiki.avif',
-        language: 'Japanese'
+        language: 'Language: Japanese'
     },
 
     //third item
     {
-        name: "The Makanai",
-        type: 'Series',
-        genre: 'Slice of Life, Drama',
+        name: "Name: The Makanai",
+        type: 'Type: Series',
+        genre: 'Genre: Slice of Life, Drama',
         picture: 'https://www.wheninmanila.com/wp-content/uploads/2023/01/the-makanai-netflix-header.jpg',
-        language: 'Japanese'
+        language: 'Language: Japanese'
     },
 
     //fourth item
     {
-        name: "Whisper of the Heart",
-        type: 'Animation Movie',
-        genre: 'Slice of Life, Drama',
+        name: "Name: Whisper of the Heart",
+        type: 'Type: Animation Movie',
+        genre: 'Genre: Slice of Life, Drama',
         picture: './Collection_pictures/whisper_of_the_heart.jpg',
-        language: 'Japanese'
+        language: 'Language: Japanese'
     },
 
     //fifth item
     {
-        name: "Laid-back Camp",
-        type: 'Anime',
-        genre: 'Slice of Life',
+        name: "Name: Laid-back Camp",
+        type: 'Type: Anime',
+        genre: 'Genre: Slice of Life',
         picture: './Collection_pictures/laid_back_camp.webp',
-        language: 'Japanese'
+        language: 'Language: Japanese'
     },
 
     //sixth item
     {
-        name: "Ouran High School Host Club",
-        type: 'Anime',
-        genre: 'Shoujo, Romance, Comedy, Slice of Life',
+        name: "Name: Ouran High School Host Club",
+        type: 'Type: Anime',
+        genre: 'Genre: Shoujo, Romance, Comedy, Slice of Life',
         picture: './Collection_pictures/ouran.avif',
-        language: 'Japanese'
+        language: 'Language: Japanese'
     },
 
     //seventh item
     {
-        name: "Flying Colours",
-        type: 'Movie',
-        genre: 'Slice of Life, Drama',
+        name: "Name: Flying Colours",
+        type: 'Type: Movie',
+        genre: 'Genre: Slice of Life, Drama',
         picture: 'https://pad.mymovies.it/filmclub/2015/03/089/coverlg_home.jpg',
-        language: 'Japanese'
+        language: 'Language: Japanese'
     },
 
     //heighth item
     {
-        name: "Howl's Moving Castle",
-        type: 'Animation Movie',
-        genre: 'Romance, Drama',
+        name: "Name: Howl's Moving Castle",
+        type: 'Type: Animation Movie',
+        genre: 'Genre: Romance, Drama',
         picture: './Collection_pictures/howl.jpg',
-        language: 'Japanese'
+        language: 'Language: Japanese'
     },
 
     //ninth item
     {
-        name: "March comes in like a Lion",
-        type: 'Anime',
-        genre: 'Slice of Life, Drama',
+        name: "Name: March comes in like a Lion",
+        type: 'Type: Anime',
+        genre: 'Genre: Slice of Life, Drama',
         picture: './Collection_pictures/march.webp',
-        language: 'Japanese'
+        language: 'Language: Japanese'
     },
 
     //tenth item
@@ -99,11 +99,11 @@ const header = document.createElement("header");
 document.body.append(header);
 
 const headerImage = document.createElement("img");
-headerImage.src = 'https://i.pinimg.com/564x/15/9b/7b/159b7bc11901446c7463e4ce540da53e.jpg';
+headerImage.src = 'https://64.media.tumblr.com/a86753dba21858536a4d4507fd96df87/9c6995b07d21774e-b4/s1280x1920/0b287f96d52095896c5475b471120c882080635e.gifv';
 header.append(headerImage);
 
 const headerParagraph = document.createElement("p");
-headerParagraph.textContent = "Ananaïs' comfort shows for a cozy time under the blanket sipping hot tea and eating cakes. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+headerParagraph.textContent = "Ananaïs' comfort shows for a cozy time under the blanket sipping hot tea and eating cakes. Get the candles and heater ready!"
 header.append(headerParagraph);
 
 //main 

@@ -9,7 +9,7 @@ header {
 header p {
     display: flex;
     flex-direction: column;
-    background-color: #f0b07f;
+    background-color: #fbc59c;
     max-width: 80%;
     margin: auto;
     padding: 1ch;
@@ -18,7 +18,7 @@ header p {
 header img {
     display: flex;
     flex-direction: column;
-    max-width: 100%;
+    max-width: 20%;
     margin: auto;
     padding: 1ch;
 }

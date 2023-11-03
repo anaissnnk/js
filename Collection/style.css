@@ -1,3 +1,11 @@
+h1 {
+    text-align: center;
+    font-family: 'Courier New';
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    color: lightcoral;
+}
+
 /* header */
 header {
     display: flex;
@@ -18,7 +26,7 @@ header p {
 header img {
     display: flex;
     flex-direction: column;
-    max-width: 20%;
+    max-width: 15%;
     margin: auto;
     padding: 1ch;
 }

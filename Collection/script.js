@@ -103,7 +103,7 @@ headerImage.src = 'https://64.media.tumblr.com/a86753dba21858536a4d4507fd96df87/
 header.append(headerImage);
 
 const headerParagraph = document.createElement("p");
-headerParagraph.textContent = "Ananaïs' comfort shows for a cozy time under the blanket sipping hot tea and eating cakes. Get the candles and heater ready!"
+headerParagraph.textContent = "Ananaïs' comfort shows for a cozy time under the blanket sipping hot tea and eating cakes. Get the candles and heater ready! No one's leaving until Howl's Moving Castle's theme song starts playing."
 header.append(headerParagraph);
 
 //main 

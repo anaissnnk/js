@@ -1,0 +1,51 @@
+/* header */
+header {
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    margin: auto;
+}
+
+header p {
+    display: flex;
+    flex-direction: column;
+    background-color: #D7C0AE;
+    max-width: 80%;
+    margin: auto;
+    padding: 1ch;
+}
+
+header img {
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+    margin: auto;
+    padding: 1ch;
+}
+
+
+/* collection */
+.row {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    margin: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 25%;
+    background-color: #EEE3CB;
+    margin: 1ch;
+    border-radius: 2ch;
+}
+
+.card img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 100%;    
+    border-radius: 2ch;
+}

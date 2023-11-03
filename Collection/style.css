@@ -1,9 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fde1cb;
+}
+
+hr {
+    margin: 1ch;
+    border-top: 1px solid rgb(251, 206, 174)
+
+}
+
 h1 {
     text-align: center;
     font-family: 'Courier New';
     letter-spacing: 1px;
     text-transform: lowercase;
     color: lightcoral;
+    margin: 1ch;
 }
 
 /* header */
@@ -21,6 +34,9 @@ header p {
     max-width: 80%;
     margin: auto;
     padding: 1ch;
+    font-family: Tahoma;
+    font-size: smaller;
+    color: rgb(82, 21, 13);
 }
 
 header img {
@@ -37,6 +53,7 @@ header img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: stretch;
     max-width: 90%;
     margin: auto;
 }
@@ -45,16 +62,25 @@ header img {
     display: flex;
     flex-direction: column;
     max-width: 22%;
-    background-color: #EEE3CB;
+    background-color: rgb(218, 141, 108);
     margin: 1ch;
     padding: 1ch;
     border-radius: 2ch;
 }
 
+.card p {
+    background-color: rgb(218, 141, 108);
+}
+
+.card h2 {
+    font-family: Tahoma;
+    text-align: center;
+    color: saddlebrown;
+    background-color: rgb(218, 141, 108);
+    margin: 1ch;
+}
+
 .card img {
-    display: flex;
-    justify-content: center;
-    align-content: center;
     max-width: 100%;    
     border-radius: 2ch;
 }

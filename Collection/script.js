@@ -96,18 +96,17 @@ const headerParagraph = document.createElement("p");
 headerParagraph.textContent = "Ananaïs' comfort shows for a cozy time under the blanket sipping hot tea and eating cakes. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
 header.append(headerParagraph);
 
-//body
+//main 
 const main = document.createElement("main");
 document.body.append(main);
 
+//row div
 const rowDiv = document.createElement("div");
 rowDiv.setAttribute("class", "row");
 main.append(rowDiv);
 
-const card = document.createCard
+//card
+const card = document.createElement("div");
+card.setAttribute("class", "card");
+rowDiv.append(card);
 
-
-collection.forEach(movie) => {
-//blablabla
-    
-};

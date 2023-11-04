@@ -160,7 +160,10 @@ collection.forEach(movie => {
         typeParagraph.className = "animationMovie";
     } else if (typeParagraph.textContent === "Series") {
         typeParagraph.className = "series";
-    };
+    } else if (typeParagraph.textContent === "Anime") {
+        typeParagraph.className = "anime";
+    }
+    ;
      //card paragraph
     const genreParagraph = document.createElement("p");
     card.append(genreParagraph);

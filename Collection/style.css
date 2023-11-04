@@ -105,13 +105,27 @@ hr {
     border-top: 1px solid rgb(251, 206, 174);
 }
 
+/* movie type style */
+
+.anime {
+    font-family: 'Lucida Sans';
+    font-size: smaller;
+    font-weight: 600;
+    letter-spacing: 3px;
+    background-color: rgb(255, 188, 239);
+    color: rgb(151, 41, 134);
+    border-radius: 20px;
+    margin: 1ch;
+    max-width: 22%;
+}
+
 .movie {
     font-family: 'Lucida Sans';
     font-size: smaller;
     font-weight: 600;
     letter-spacing: 3px;
     background-color: rgb(255, 233, 187);
-    color: rgb(148, 122, 64);
+    color: rgb(156, 121, 46);
     border-radius: 20px;
     margin: 1ch;
     max-width: 22%;
@@ -122,8 +136,8 @@ hr {
     font-size: smaller;
     font-weight: 600;
     letter-spacing: 3px;
-    background-color: rgb(255, 205, 187);
-    color: rgb(148, 95, 64);
+    background-color: rgb(255, 194, 172);
+    color: rgb(142, 73, 33);
     border-radius: 20px;
     margin: 1ch;
     max-width: 22%;
@@ -134,8 +148,8 @@ hr {
     font-size: smaller;
     font-weight: 600;
     letter-spacing: 3px;
-    background-color: rgb(255, 187, 227);
-    color: rgb(148, 64, 116);
+    background-color: rgb(255, 196, 196);
+    color: rgb(148, 64, 64);
     border-radius: 20px;
     margin: 1ch;
     max-width: 65%;

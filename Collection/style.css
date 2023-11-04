@@ -166,4 +166,18 @@ hr {
     font-family: 'Verdana';
     font-size: small;
     padding: 1ch;
+    color: rgb(82, 21, 13);
 }
+
+/* media query*/
+@media only screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+    header img {
+        max-width: 50%;
+    }
+    header p {
+        max-width: 100%;
+    }
+  }

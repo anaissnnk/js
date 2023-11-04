@@ -6,7 +6,7 @@ const collection = [
         name: '「小森冬と春」',
         translation: 'Little Forest Winter/Spring',
         type: 'Movie',
-        genre: 'Drama',
+        genre: 'To appreciate slow living.',
         picture: 'https://images.justwatch.com/backdrop/11289115/s640/little-forest-winter-spring.%7Bformat%7D',
         language: 'Language: Japanese',
         trailer: "https://www.youtube.com/watch?v=o1PFT10WEKw"
@@ -18,7 +18,7 @@ const collection = [
         name: "「魔女のキキ」",
         translation: "Kiki's Delivery Service",
         type: 'Animation Movie',
-        genre: 'Genre: Slice of Life, Drama',
+        genre: 'To feel the sparks again.',
         picture: './Collection_pictures/kiki.avif',
         language: 'Language: Japanese',
         trailer: "https://www.youtube.com/watch?v=4bG17OYs-GA"
@@ -29,7 +29,7 @@ const collection = [
         name: "「舞妓さんの賄いさん」",
         translation: "The Makanai",
         type: 'Series',
-        genre: 'Slice of Life, Drama',
+        genre: 'To dive in the Maiko culture.',
         picture: 'https://www.wheninmanila.com/wp-content/uploads/2023/01/the-makanai-netflix-header.jpg',
         language: 'Language: Japanese',
         trailer: "https://www.youtube.com/watch?v=uTQ1oCVR74o"
@@ -40,7 +40,7 @@ const collection = [
         name: "「耳をすませば」",
         translation: "Whisper of the Heart",
         type: 'Animation Movie',
-        genre: 'Slice of Life, Drama',
+        genre: 'To trust the process, and yourself.',
         picture: './Collection_pictures/whisper_of_the_heart.jpg',
         language: 'Language: Japanese',
         trailer: "https://www.youtube.com/watch?v=0pVkiod6V0U"
@@ -51,7 +51,7 @@ const collection = [
         name: "「ゆるキアンプ」",
         translation: "Laid-back Camp",
         type: 'Anime',
-        genre: 'Slice of Life',
+        genre: 'To take a break, and return to nature.',
         picture: './Collection_pictures/laid_back_camp.webp',
         language: 'Language: Japanese',
         trailer: "https://www.youtube.com/watch?v=TkRBk94fMwA"
@@ -62,7 +62,7 @@ const collection = [
         name: "「桜蘭高校ホスト部」",
         translation: "Ouran High School Host Club",
         type: 'Anime',
-        genre: 'Shoujo, Romance, Comedy',
+        genre: 'To laugh and daydream hearthily.',
         picture: './Collection_pictures/ouran.avif',
         language: 'Language: Japanese',
         trailer: "https://www.youtube.com/watch?v=rAjvIOWH1r4"
@@ -73,8 +73,8 @@ const collection = [
         name: "「ビリギャル」",
         translation: "Flying Colours",
         type: 'Movie',
-        genre: 'Slice of Life, Drama',
-        picture: 'https://pad.mymovies.it/filmclub/2015/03/089/coverlg_home.jpg',
+        genre: 'To trace your own destiny.',
+        picture: './Collection_pictures/biri_gyaru.webp',
         language: 'Language: Japanese',
         trailer: "https://www.youtube.com/watch?v=6R29eQGsQAk"
     },
@@ -84,7 +84,7 @@ const collection = [
         name: "「ハウルの動く城」",
         translation: "Howl's Moving Castle",
         type: 'Animation Movie',
-        genre: 'Romance, Drama',
+        genre: 'To fall in love with a dramatic wizard.',
         picture: './Collection_pictures/howl.jpg',
         language: 'Language: Japanese',
         trailer: "https://www.youtube.com/watch?v=iwROgK94zcM"
@@ -95,7 +95,7 @@ const collection = [
         name: "「三月のライオン」",
         translation: "March comes in like a Lion",
         type: 'Anime',
-        genre: 'Slice of Life, Drama',
+        genre: 'To heal your inner child.',
         picture: './Collection_pictures/march.webp',
         language: 'Language: Japanese',
         trailer: "https://www.youtube.com/watch?v=ZL5nnx4vd7k"
@@ -106,13 +106,12 @@ const collection = [
         name: "이상한 변호사 우영우",
         translation: "Extraordinary Attorney Woo",
         type: 'Series',
-        genre: 'Romance, Slice of Life, Drama',
+        genre: 'To appreciate those around you.',
         picture: './Collection_pictures/attorney_woo.jpg',
         language: 'Japanese',
         trailer: "https://www.youtube.com/watch?v=9SdYFYflVbw"
     },
   
-
   ]
 
 //h1
@@ -173,10 +172,11 @@ collection.forEach(movie => {
     } else if (typeParagraph.textContent === "Anime") {
         typeParagraph.className = "anime";
     };
-     //card genre
-    //const genreParagraph = document.createElement("p");
-    //card.append(genreParagraph);
-    //genreParagraph.textContent = movie.genre;
+     //card for whom?
+    const genreParagraph = document.createElement("p");
+    card.append(genreParagraph);
+    genreParagraph.textContent = movie.genre;
+    genreParagraph.className = "genre";
     //const languageParagraph = document.createElement("p");
     //card.append(languageParagraph);
     //languageParagraph.textContent = movie.language;

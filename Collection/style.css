@@ -36,6 +36,7 @@ header p {
     font-family: Tahoma;
     font-size: smaller;
     color: rgb(82, 21, 13);
+    text-align: justify;
 }
 
 header img {

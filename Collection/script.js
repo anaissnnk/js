@@ -20,7 +20,8 @@ const collection = [
         type: 'Animation Movie',
         genre: 'Genre: Slice of Life, Drama',
         picture: './Collection_pictures/kiki.avif',
-        language: 'Language: Japanese'
+        language: 'Language: Japanese',
+        trailer: "https://www.youtube.com/watch?v=4bG17OYs-GA"
     },
 
     //third item
@@ -30,7 +31,8 @@ const collection = [
         type: 'Series',
         genre: 'Slice of Life, Drama',
         picture: 'https://www.wheninmanila.com/wp-content/uploads/2023/01/the-makanai-netflix-header.jpg',
-        language: 'Language: Japanese'
+        language: 'Language: Japanese',
+        trailer: "https://www.youtube.com/watch?v=uTQ1oCVR74o"
     },
 
     //fourth item
@@ -40,7 +42,8 @@ const collection = [
         type: 'Animation Movie',
         genre: 'Slice of Life, Drama',
         picture: './Collection_pictures/whisper_of_the_heart.jpg',
-        language: 'Language: Japanese'
+        language: 'Language: Japanese',
+        trailer: "https://www.youtube.com/watch?v=0pVkiod6V0U"
     },
 
     //fifth item
@@ -50,7 +53,8 @@ const collection = [
         type: 'Anime',
         genre: 'Slice of Life',
         picture: './Collection_pictures/laid_back_camp.webp',
-        language: 'Language: Japanese'
+        language: 'Language: Japanese',
+        trailer: "https://www.youtube.com/watch?v=TkRBk94fMwA"
     },
 
     //sixth item
@@ -60,7 +64,8 @@ const collection = [
         type: 'Anime',
         genre: 'Shoujo, Romance, Comedy',
         picture: './Collection_pictures/ouran.avif',
-        language: 'Language: Japanese'
+        language: 'Language: Japanese',
+        trailer: "https://www.youtube.com/watch?v=rAjvIOWH1r4"
     },
 
     //seventh item
@@ -70,7 +75,8 @@ const collection = [
         type: 'Movie',
         genre: 'Slice of Life, Drama',
         picture: 'https://pad.mymovies.it/filmclub/2015/03/089/coverlg_home.jpg',
-        language: 'Language: Japanese'
+        language: 'Language: Japanese',
+        trailer: "https://www.youtube.com/watch?v=6R29eQGsQAk"
     },
 
     //heighth item
@@ -80,7 +86,8 @@ const collection = [
         type: 'Animation Movie',
         genre: 'Romance, Drama',
         picture: './Collection_pictures/howl.jpg',
-        language: 'Language: Japanese'
+        language: 'Language: Japanese',
+        trailer: "https://www.youtube.com/watch?v=iwROgK94zcM"
     },
 
     //ninth item
@@ -90,17 +97,19 @@ const collection = [
         type: 'Anime',
         genre: 'Slice of Life, Drama',
         picture: './Collection_pictures/march.webp',
-        language: 'Language: Japanese'
+        language: 'Language: Japanese',
+        trailer: "https://www.youtube.com/watch?v=ZL5nnx4vd7k"
     },
 
     //tenth item
     {
-        name: "「花より男子」",
-        translation: "Boys over Flowers",
+        name: "이상한 변호사 우영우",
+        translation: "Extraordinary Attorney Woo",
         type: 'Series',
         genre: 'Romance, Slice of Life, Drama',
-        picture: './Collection_pictures/hana.webp',
-        language: 'Japanese'
+        picture: './Collection_pictures/attorney_woo.jpg',
+        language: 'Japanese',
+        trailer: "https://www.youtube.com/watch?v=9SdYFYflVbw"
     },
   
 

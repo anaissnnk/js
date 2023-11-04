@@ -3,7 +3,8 @@
 const collection = [
     //first item
     {
-        name: 'Little Forest Winter/Spring',
+        name: '「小森冬と春」',
+        translation: 'Little Forest Winter/Spring',
         type: 'Movie',
         genre: 'Drama',
         picture: 'https://images.justwatch.com/backdrop/11289115/s640/little-forest-winter-spring.%7Bformat%7D',
@@ -13,7 +14,8 @@ const collection = [
 
     //second item
     {
-        name: "Kiki's Delivery Service",
+        name: "「魔女のキキ」",
+        translation: "Kiki's Delivery Service",
         type: 'Animation Movie',
         genre: 'Genre: Slice of Life, Drama',
         picture: './Collection_pictures/kiki.avif',
@@ -22,7 +24,8 @@ const collection = [
 
     //third item
     {
-        name: "The Makanai",
+        name: "「舞妓さんの賄いさん」",
+        translation: "The Makanai",
         type: 'Series',
         genre: 'Slice of Life, Drama',
         picture: 'https://www.wheninmanila.com/wp-content/uploads/2023/01/the-makanai-netflix-header.jpg',
@@ -31,7 +34,8 @@ const collection = [
 
     //fourth item
     {
-        name: "Whisper of the Heart",
+        name: "「耳をすませば」",
+        translation: "Whisper of the Heart",
         type: 'Animation Movie',
         genre: 'Slice of Life, Drama',
         picture: './Collection_pictures/whisper_of_the_heart.jpg',
@@ -40,7 +44,8 @@ const collection = [
 
     //fifth item
     {
-        name: "Laid-back Camp",
+        name: "「ゆるキアンプ」",
+        translation: "Laid-back Camp",
         type: 'Type: Anime',
         genre: 'Slice of Life',
         picture: './Collection_pictures/laid_back_camp.webp',
@@ -49,7 +54,8 @@ const collection = [
 
     //sixth item
     {
-        name: "Ouran High School Host Club",
+        name: "「桜蘭高校ホスト部」",
+        translation: "Ouran High School Host Club",
         type: 'Type: Anime',
         genre: 'Shoujo, Romance, Comedy',
         picture: './Collection_pictures/ouran.avif',
@@ -58,7 +64,8 @@ const collection = [
 
     //seventh item
     {
-        name: "Flying Colours",
+        name: "「ビリギャル」",
+        translation: "Flying Colours",
         type: 'Type: Movie',
         genre: 'Slice of Life, Drama',
         picture: 'https://pad.mymovies.it/filmclub/2015/03/089/coverlg_home.jpg',
@@ -67,7 +74,8 @@ const collection = [
 
     //heighth item
     {
-        name: "Howl's Moving Castle",
+        name: "「ハウルの動く城」",
+        translation: "Howl's Moving Castle",
         type: 'Type: Animation Movie',
         genre: 'Romance, Drama',
         picture: './Collection_pictures/howl.jpg',
@@ -76,7 +84,8 @@ const collection = [
 
     //ninth item
     {
-        name: "March comes in like a Lion",
+        name: "「三月のライオン」",
+        translation: "March comes in like a Lion",
         type: 'Anime',
         genre: 'Slice of Life, Drama',
         picture: './Collection_pictures/march.webp',
@@ -85,7 +94,8 @@ const collection = [
 
     //tenth item
     {
-        name: "Boys over Flowers",
+        name: "「花より男子」",
+        translation: "Boys over Flowers",
         type: 'Series',
         genre: 'Romance, Slice of Life, Drama',
         picture: './Collection_pictures/hana.webp',
@@ -136,6 +146,10 @@ collection.forEach(movie => {
     const nameTitle = document.createElement("h2");
     card.append(nameTitle);
     nameTitle.textContent = movie.name;
+    //card name translation
+    const nameTranslation = document.createElement("h5");
+    card.append(nameTranslation);
+    nameTranslation.textContent = movie.translation;
     //card paragraph
     const typeParagraph = document.createElement("p");
     card.append(typeParagraph);

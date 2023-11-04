@@ -15,7 +15,7 @@ h1 {
     font-family: 'Courier New';
     letter-spacing: 1px;
     text-transform: lowercase;
-    color: coral;
+    color: rgb(232, 111, 67);
     margin: 1ch;
 }
 
@@ -30,7 +30,7 @@ header {
 header p {
     display: flex;
     flex-direction: column;
-    background-color: #fbc59c;
+    background-color: #f9caa5;
     max-width: 80%;
     margin: auto;
     padding: 1ch;
@@ -71,8 +71,11 @@ header img {
     border-radius: 2ch;
 }
 
-.card p {
-    background-color: rgb(231, 160, 130);
+.card img {
+    width: 250px;
+    height: 120px;
+    border-radius: 1ch;
+    margin: auto;
 }
 
 .card h2 {
@@ -81,12 +84,16 @@ header img {
     color: saddlebrown;
     background-color: rgb(231, 160, 130);
     margin: 1ch;
-    font-size: 12px;
+    font-size: 20px;
 }
 
-.card img {
-    width: 250px;
-    height: 120px;
-    border-radius: 1ch;
-    margin: auto;
+.card h5 {
+    font-family: Tahoma;
+    text-align: center;
+    color: rgb(248, 236, 227);
+    background-color: rgb(231, 160, 130);
+}
+
+.card p {
+    background-color: rgb(231, 160, 130);
 }

@@ -22,7 +22,7 @@ h1 {
 header {
     display: flex;
     flex-direction: row;
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
 }
 
@@ -57,7 +57,7 @@ header img {
     max-width: 90%;
     margin: auto;
     padding: 1ch;
-    gap: 10px;
+    gap: 20px;
 }
 
 /* cards */

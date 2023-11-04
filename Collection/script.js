@@ -40,7 +40,7 @@ const collection = [
         name: "「耳をすませば」",
         translation: "Whisper of the Heart",
         type: 'Animation Movie',
-        genre: 'To trust the process, and yourself.',
+        genre: 'To trust the process (yourself).',
         picture: './Collection_pictures/whisper_of_the_heart.jpg',
         language: 'Language: Japanese',
         trailer: "https://www.youtube.com/watch?v=0pVkiod6V0U"
@@ -51,7 +51,7 @@ const collection = [
         name: "「ゆるキアンプ」",
         translation: "Laid-back Camp",
         type: 'Anime',
-        genre: 'To take a break, and return to nature.',
+        genre: 'To take a break, in nature.',
         picture: './Collection_pictures/laid_back_camp.webp',
         language: 'Language: Japanese',
         trailer: "https://www.youtube.com/watch?v=TkRBk94fMwA"
@@ -84,7 +84,7 @@ const collection = [
         name: "「ハウルの動く城」",
         translation: "Howl's Moving Castle",
         type: 'Animation Movie',
-        genre: 'To fall in love with a dramatic wizard.',
+        genre: 'To fall in love with a wizard.',
         picture: './Collection_pictures/howl.jpg',
         language: 'Language: Japanese',
         trailer: "https://www.youtube.com/watch?v=iwROgK94zcM"

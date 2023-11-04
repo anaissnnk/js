@@ -46,7 +46,7 @@ const collection = [
     {
         name: "「ゆるキアンプ」",
         translation: "Laid-back Camp",
-        type: 'Type: Anime',
+        type: 'Anime',
         genre: 'Slice of Life',
         picture: './Collection_pictures/laid_back_camp.webp',
         language: 'Language: Japanese'
@@ -56,7 +56,7 @@ const collection = [
     {
         name: "「桜蘭高校ホスト部」",
         translation: "Ouran High School Host Club",
-        type: 'Type: Anime',
+        type: 'Anime',
         genre: 'Shoujo, Romance, Comedy',
         picture: './Collection_pictures/ouran.avif',
         language: 'Language: Japanese'
@@ -66,7 +66,7 @@ const collection = [
     {
         name: "「ビリギャル」",
         translation: "Flying Colours",
-        type: 'Type: Movie',
+        type: 'Movie',
         genre: 'Slice of Life, Drama',
         picture: 'https://pad.mymovies.it/filmclub/2015/03/089/coverlg_home.jpg',
         language: 'Language: Japanese'
@@ -76,7 +76,7 @@ const collection = [
     {
         name: "「ハウルの動く城」",
         translation: "Howl's Moving Castle",
-        type: 'Type: Animation Movie',
+        type: 'Animation Movie',
         genre: 'Romance, Drama',
         picture: './Collection_pictures/howl.jpg',
         language: 'Language: Japanese'
@@ -150,10 +150,17 @@ collection.forEach(movie => {
     const nameTranslation = document.createElement("h5");
     card.append(nameTranslation);
     nameTranslation.textContent = movie.translation;
-    //card paragraph
+    //card type
     const typeParagraph = document.createElement("p");
     card.append(typeParagraph);
     typeParagraph.textContent = movie.type;
+    if (typeParagraph.textContent === "Movie") {
+        typeParagraph.className = "movie";
+    } else if (typeParagraph.textContent === "Animation Movie") {
+        typeParagraph.className = "animationMovie";
+    } else if (typeParagraph.textContent === "Series") {
+        typeParagraph.className = "series";
+    };
      //card paragraph
     const genreParagraph = document.createElement("p");
     card.append(genreParagraph);

@@ -1,13 +1,12 @@
+/* general */
+
 * {
     margin: 0;
     padding: 0;
-    background-color: #fde1cb;
 }
 
-hr {
-    margin: 1ch;
-    border-top: 1px solid rgb(251, 206, 174)
-
+body {
+    background-color: #fde1cb;
 }
 
 h1 {
@@ -47,7 +46,7 @@ header img {
     padding: 1ch;
 }
 
-
+/*body*/
 /* collection */
 .row {
     display: flex;
@@ -94,6 +93,50 @@ header img {
     background-color: rgb(231, 160, 130);
 }
 
-.card p {
+/*b.card p {
     background-color: rgb(231, 160, 130);
+    padding: 1.5ch;
+    /*font-family: Tahoma;
+    font-size: smaller;
+}*/
+
+hr {
+    margin: 1ch;
+    border-top: 1px solid rgb(251, 206, 174);
+}
+
+.movie {
+    font-family: 'Lucida Sans';
+    font-size: smaller;
+    font-weight: 600;
+    letter-spacing: 3px;
+    background-color: rgb(255, 233, 187);
+    color: rgb(148, 122, 64);
+    border-radius: 20px;
+    margin: 1ch;
+    max-width: 22%;
+}
+
+.series {
+    font-family: 'Lucida Sans';
+    font-size: smaller;
+    font-weight: 600;
+    letter-spacing: 3px;
+    background-color: rgb(255, 205, 187);
+    color: rgb(148, 95, 64);
+    border-radius: 20px;
+    margin: 1ch;
+    max-width: 22%;
+}
+
+.animationMovie {
+    font-family: 'Lucida Sans';
+    font-size: smaller;
+    font-weight: 600;
+    letter-spacing: 3px;
+    background-color: rgb(255, 187, 227);
+    color: rgb(148, 64, 116);
+    border-radius: 20px;
+    margin: 1ch;
+    max-width: 65%;
 }

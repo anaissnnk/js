@@ -113,7 +113,7 @@ hr {
     font-weight: 600;
     letter-spacing: 3px;
     background-color: rgb(255, 188, 239);
-    color: rgb(151, 41, 134);
+    color: rgb(185, 36, 162);
     border-radius: 20px;
     margin: 1ch;
     max-width: 22%;
@@ -153,4 +153,10 @@ hr {
     border-radius: 20px;
     margin: 1ch;
     max-width: 65%;
+}
+
+.videoImg {
+    max-width: 30px;
+    max-height: 30px;
+    padding: 1ch;
 }

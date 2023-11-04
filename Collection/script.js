@@ -8,7 +8,8 @@ const collection = [
         type: 'Movie',
         genre: 'Drama',
         picture: 'https://images.justwatch.com/backdrop/11289115/s640/little-forest-winter-spring.%7Bformat%7D',
-        language: 'Language: Japanese'
+        language: 'Language: Japanese',
+        trailer: "https://www.youtube.com/watch?v=o1PFT10WEKw"
 
     },
 
@@ -150,7 +151,7 @@ collection.forEach(movie => {
     const nameTranslation = document.createElement("h5");
     card.append(nameTranslation);
     nameTranslation.textContent = movie.translation;
-    //card type
+    //card movie type
     const typeParagraph = document.createElement("p");
     card.append(typeParagraph);
     typeParagraph.textContent = movie.type;
@@ -162,16 +163,25 @@ collection.forEach(movie => {
         typeParagraph.className = "series";
     } else if (typeParagraph.textContent === "Anime") {
         typeParagraph.className = "anime";
-    }
-    ;
-     //card paragraph
-    const genreParagraph = document.createElement("p");
-    card.append(genreParagraph);
-    genreParagraph.textContent = movie.genre;
-    const languageParagraph = document.createElement("p");
-    card.append(languageParagraph);
-    languageParagraph.textContent = movie.language;
+    };
+     //card genre
+    //const genreParagraph = document.createElement("p");
+    //card.append(genreParagraph);
+    //genreParagraph.textContent = movie.genre;
+    //const languageParagraph = document.createElement("p");
+    //card.append(languageParagraph);
+    //languageParagraph.textContent = movie.language;
     //card line separator
     const lineSeparator = document.createElement("hr");
     card.append(lineSeparator);
+    //card youtube trailer
+    //card link
+    const link = document.createElement("a");
+    card.append(link);
+    link.href= movie.trailer;
+    //card image within link
+    const videoImg = document.createElement("img");
+    link.append(videoImg);
+    videoImg.src = "./Collection_pictures/video_icon.png";
+    videoImg.className = "videoImg";
 });

@@ -27,6 +27,7 @@ header {
     justify-content: space-evenly;
     margin: auto;
     padding: $rowPadding;
+    overflow: hidden;
 }
 
 .card {

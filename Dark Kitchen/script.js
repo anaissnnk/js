@@ -10,7 +10,7 @@ const products = [
 
     //SECOND PRODUCT
     {
-        name: "Dark Chocolate Brownie",
+        name: "Matcha Madeleines",
         tags: "Dessert",
         description: "blablabla",
         price: "4 euros",
@@ -18,7 +18,7 @@ const products = [
 
     //THIRD PRODUCT
     {
-        name: "Matcha White Chocolate Cookie",
+        name: "Chocolate Brownie",
         tags: "Dessert",
         description: "blablabla",
         price: "5 euros",

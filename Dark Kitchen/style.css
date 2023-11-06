@@ -29,6 +29,10 @@ header {
   padding: 2ch;
 }
 
+.card img {
+  max-height: 300px;
+}
+
 .card h2 {
   display: flex;
   align-items: center;

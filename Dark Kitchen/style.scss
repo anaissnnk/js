@@ -1,0 +1,32 @@
+// GENERAL
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// ROW VARIABLES
+$rowPadding: 2ch;
+// PADDINGS VARIABLES
+$cardPadding: 2ch;
+// CARD VARIABLES
+$cardBgColor: beige;
+
+// ROW
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: $rowPadding;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: $cardBgColor;
+    max-width: 20%;
+    text-align: justify;
+    padding: $cardPadding;
+}

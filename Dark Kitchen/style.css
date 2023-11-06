@@ -1,1 +1,23 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
+  margin: auto;
+  padding: 2ch;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: beige;
+  max-width: 20%;
+  text-align: justify;
+  padding: 2ch;
+}/*# sourceMappingURL=style.css.map */

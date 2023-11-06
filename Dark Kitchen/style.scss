@@ -38,3 +38,10 @@ header {
     text-align: justify;
     padding: $cardPadding;
 }
+
+.card h2 {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+}

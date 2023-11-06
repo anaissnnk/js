@@ -26,7 +26,7 @@ const products = [
 
     //FOURTH ITEM 
     {
-        name: "Bulbasaur Cookies",
+        name: "Bulbasaur Sand Cookies",
         tags: "Dessert",
         description: "blablabla",
         price: "3 euros",
@@ -50,7 +50,7 @@ const products = [
 
     //SEVENTH ITEM
     {
-        name: "Taro Milk Tea",
+        name: "Taro Cream Cheese Bubble Tea",
         tags: "Drink",
         description: "blablabla",
         price: "5 euros",
@@ -58,7 +58,7 @@ const products = [
 
     //EIGHTH ITEM
     {
-        name: "Brown Sugar Milk Tea",
+        name: "Brown Sugar Bubble Tea",
         tags: "Drink",
         description: "blablabla",
         price: "5 euros",

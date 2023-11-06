@@ -33,4 +33,16 @@ header {
   align-items: center;
   height: 100px;
   text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    max-width: 100%;
+    padding: 2ch;
+    margin: 1ch;
+  }
 }/*# sourceMappingURL=style.css.map */

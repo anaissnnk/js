@@ -45,3 +45,16 @@ header {
     height: 100px;
     text-align: center;
 }
+
+//MEDIA QUERY
+@media only screen and (max-width: 600px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        max-width: 100%;
+        padding: $cardPadding;
+        margin: 1ch;
+    }
+  }

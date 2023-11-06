@@ -9,18 +9,41 @@ $headerPadding: 2ch;
 $rowPadding: 2ch;
 // PADDINGS VARIABLES
 $cardPadding: 2ch;
-// CARD VARIABLES
-$cardBgColor: beige;
+
+body {
+    background-color: rgb(255, 215, 195);
+}
 
 // HEADER
 header {
     text-align: center;
-    background-color: lightpink;
+    background-color: darksalmon;
     padding: $headerPadding;
 }
 
+header img {
+    max-width: 200px;
+    margin: auto;
+}
+
+h1 {
+    margin: 1ch;
+    font-family:'Courier New';
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    color: darkred;
+}
+
+span {
+    margin: 1ch;
+    font-family:monospace;
+}
+
 //FILTERS
-  
+#myBtnContainer {
+    text-align: center;
+    padding: 1ch;
+}
 /* The "show" class is added to the filtered elements */
 .show {
     display: block;
@@ -65,10 +88,11 @@ header {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: $cardBgColor;
+    background-color: rgb(240, 186, 150);
     max-width: 20%;
     text-align: justify;
     padding: $cardPadding;
+    font-family: monospace;
 }
 
 .card img {
@@ -81,6 +105,9 @@ header {
     align-items: center;
     height: 100px;
     text-align: center;
+    font-family: Tahoma;
+    font-size: medium;
+    color: rgb(169, 86, 56);
 }
 
 //MEDIA QUERY
@@ -91,7 +118,7 @@ header {
     }
     .card {
         max-width: 100%;
-        padding: $cardPadding;
-        margin: 1ch;
+        margin: 2ch;
     }
+
   }

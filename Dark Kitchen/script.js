@@ -2,7 +2,7 @@
 const products = [
     //FIRST PRODUCT
     {
-        name: "Fudgy Matcha Brownie",
+        name: "Fudgy Matcha Brownie with Almonds",
         tags: "Dessert",
         description: "blablabla",
         price: "5 euros",
@@ -26,7 +26,7 @@ const products = [
 
     //FOURTH ITEM 
     {
-        name: "Bulbasaur Sand Cookies",
+        name: "Bulbasaur Matcha Sand Cookies",
         tags: "Dessert",
         description: "blablabla",
         price: "3 euros",
@@ -50,7 +50,7 @@ const products = [
 
     //SEVENTH ITEM
     {
-        name: "Taro Cream Cheese Bubble Tea",
+        name: "Chocolate Muffin with Cruncy Base",
         tags: "Drink",
         description: "blablabla",
         price: "5 euros",
@@ -58,7 +58,7 @@ const products = [
 
     //EIGHTH ITEM
     {
-        name: "Brown Sugar Bubble Tea",
+        name: "Matcha White Chocolate Cookie",
         tags: "Drink",
         description: "blablabla",
         price: "5 euros",

@@ -3,13 +3,21 @@
     margin: 0;
     padding: 0;
 }
-
+// HEADER VARIABLES
+$headerPadding: 2ch;
 // ROW VARIABLES
 $rowPadding: 2ch;
 // PADDINGS VARIABLES
 $cardPadding: 2ch;
 // CARD VARIABLES
 $cardBgColor: beige;
+
+// HEADER
+header {
+    text-align: center;
+    background-color: lightpink;
+    padding: $headerPadding;
+}
 
 // ROW
 .row {

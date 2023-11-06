@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+header {
+  text-align: center;
+  background-color: lightpink;
+  padding: 2ch;
+}
+
 .row {
   display: flex;
   flex-direction: row;

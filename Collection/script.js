@@ -194,3 +194,4 @@ collection.forEach(movie => {
     videoImg.src = "./Collection_pictures/video_icon.png";
     videoImg.className = "videoImg";
 });
+

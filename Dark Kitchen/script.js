@@ -65,3 +65,26 @@ const products = [
     },
 
 ]
+
+//FUNCTIONS
+//Product Name
+document.body.querySelectorAll("h2").forEach((h2, index) => {
+    h2.textContent = products[index].name;
+});
+
+//Product Tags
+document.body.querySelectorAll("p.product-tags").forEach((p, index) => {
+    p.textContent = products[index].tags;
+});
+
+//Product Description
+document.body.querySelectorAll("p.product-description").forEach((p, index) => {
+    p.textContent = products[index].description;
+});
+
+//Product Description
+document.body.querySelectorAll("p.product-price").forEach((p, index) => {
+    p.textContent = products[index].price;
+});
+
+

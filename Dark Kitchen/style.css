@@ -141,9 +141,10 @@ span {
   background-color: rgb(181, 104, 76);
   color: rgb(58, 13, 13);
   position: fixed;
-  inset: 0 0 0 auto;
+  inset: 0 -400px 0 auto;
   display: grid;
   grid-template-rows: 70px 1fr 70px;
+  transition: 0.5s;
 }
 
 .cartTab h3 {
@@ -172,4 +173,23 @@ span {
 .cartTab .btn .close {
   background-color: white;
   color: black;
+}
+
+.cartTab .cartList .card {
+  display: grid;
+  grid-template-columns: 70px 150px 50px 1fr;
+  text-align: center;
+  align-items: center;
+}
+
+body .showCart .cartTab {
+  inset: 0 0 0 auto;
+}
+
+body .showCart .cart-container {
+  transform: translateX(-250px);
+}
+
+.cart-container {
+  transition: transform 0.5s;
 }/*# sourceMappingURL=style.css.map */

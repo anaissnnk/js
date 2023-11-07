@@ -81,7 +81,7 @@ span {
   flex: 1;
   background-color: rgb(240, 186, 150);
   max-width: 20%;
-  text-align: justify;
+  text-align: center;
   padding: 2ch;
   font-family: monospace;
 }
@@ -94,7 +94,7 @@ span {
 .card h2 {
   display: flex;
   align-items: center;
-  height: 100px;
+  height: 70px;
   text-align: center;
   font-family: Tahoma;
   font-size: medium;
@@ -110,4 +110,28 @@ span {
     max-width: 100%;
     margin: 2ch;
   }
+}
+.cart-container {
+  max-width: 80%;
+  margin: auto;
+  font-family: monospace;
+  font-weight: 600;
+  text-align: center;
+  padding: 2ch;
+  color: rgb(139, 35, 0);
+}
+.cart-container svg {
+  width: 30px;
+  margin: 1ch;
+}
+
+.addCart {
+  background-color: darkred;
+  border-color: darkred;
+  color: beige;
+  margin: 1ch;
+  border-radius: 5px;
+  font-family: Courier;
+  letter-spacing: 3px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

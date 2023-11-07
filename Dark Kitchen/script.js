@@ -3,7 +3,7 @@ const products = [
     //FIRST PRODUCT
     {
         name: "Fudgy Matcha Brownie with Almonds",
-        tags: "Dessert",
+        tags: "Matcha",
         description: "blablabla",
         price: "5 euros",
     },
@@ -11,7 +11,7 @@ const products = [
     //SECOND PRODUCT
     {
         name: "Soft Honeyed Matcha Madeleines",
-        tags: "Dessert",
+        tags: "Matcha",
         description: "blablabla",
         price: "4 euros",
     },
@@ -19,7 +19,7 @@ const products = [
     //THIRD PRODUCT
     {
         name: "Fudgy Almond Chocolate Brownie",
-        tags: "Dessert",
+        tags: "Chocolate",
         description: "blablabla",
         price: "5 euros",
     },
@@ -27,7 +27,7 @@ const products = [
     //FOURTH ITEM 
     {
         name: "Bulbasaur Matcha Sand Cookies",
-        tags: "Dessert",
+        tags: "Matcha",
         description: "blablabla",
         price: "3 euros",
     },
@@ -35,7 +35,7 @@ const products = [
     //FIFTH ITEM
     {
         name: "Baked Matcha Basque Cheesecake",
-        tags: "Dessert",
+        tags: "Matcha",
         description: "blablabla",
         price: "7 euros",
     },
@@ -43,7 +43,7 @@ const products = [
     //SIXH ITEM
     {
         name: "Baked Speculoos and Chocolate Cheesecake",
-        tags: "Dessert",
+        tags: "Chocolate",
         description: "blablabla",
         price: "7 euros",
     },
@@ -51,7 +51,7 @@ const products = [
     //SEVENTH ITEM
     {
         name: "Chocolate Muffin with Cruncy Base",
-        tags: "Drink",
+        tags: "Chocolate",
         description: "blablabla",
         price: "5 euros",
     },
@@ -59,7 +59,7 @@ const products = [
     //EIGHTH ITEM
     {
         name: "Matcha White Chocolate Cookie",
-        tags: "Drink",
+        tags: "Matcha",
         description: "blablabla",
         price: "5 euros",
     },
@@ -125,5 +125,7 @@ document.body.querySelectorAll("p.product-description").forEach((p, index) => {
 document.body.querySelectorAll("p.product-price").forEach((p, index) => {
     p.textContent = products[index].price;
 });
+
+//shopping cart
 
 

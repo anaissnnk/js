@@ -157,8 +157,6 @@ span {
 }
 
 .cartTab .btn {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   background-color: darkred;
 }
 
@@ -168,11 +166,6 @@ span {
   border: none;
   cursor: pointer;
   font-family: monospace;
-}
-
-.cartTab .btn .close {
-  background-color: white;
-  color: black;
 }
 
 .cartTab .cartList .card {

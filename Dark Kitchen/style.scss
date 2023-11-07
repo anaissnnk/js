@@ -173,6 +173,8 @@ span {
 }
 
 .cartTab .btn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     background-color: darkred;
 }
 
@@ -182,6 +184,11 @@ span {
     border: none;
     cursor: pointer;
     font-family: monospace;
+}
+
+.cartTab .btn .close {
+    background-color: white;
+    color: black;
 }
 
 .cartTab .cartList .card {
@@ -201,4 +208,8 @@ body .showCart .cart-container {
 
 .cart-container {
     transition: transform 0.5s;
+}
+
+.icon-cart {
+    cursor: pointer;
 }

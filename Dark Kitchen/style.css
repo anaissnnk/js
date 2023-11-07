@@ -182,8 +182,8 @@ span {
   align-items: center;
 }
 
-body .showCart .cartTab {
-  inset: 0 0 0 auto;
+body.showCart .cartTab {
+  right: 0;
 }
 
 body .showCart .cart-container {

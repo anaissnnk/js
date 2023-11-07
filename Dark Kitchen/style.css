@@ -134,4 +134,42 @@ span {
   font-family: Courier;
   letter-spacing: 3px;
   cursor: pointer;
+}
+
+.cartTab {
+  width: 400px;
+  background-color: rgb(181, 104, 76);
+  color: rgb(58, 13, 13);
+  position: fixed;
+  inset: 0 0 0 auto;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+}
+
+.cartTab h3 {
+  padding: 20px;
+  margin: 0;
+  font-weight: 600;
+  font-size: x-large;
+  text-align: center;
+  font-family: Courier;
+}
+
+.cartTab .btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: darkred;
+}
+
+.cartTab .btn button {
+  background-color: rgb(186, 61, 61);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: monospace;
+}
+
+.cartTab .btn .close {
+  background-color: white;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
